@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color:#264653;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.wrapper {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.wrapper h1 {
+    font-size: 48px;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.wrapper .our_team {
+display: flex;
+width: auto;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.wrapper .our_team .team_member {
+    width: 250px;
+    margin: 5px;
+    background: #fff;
+    padding: 20px 10px 15px;
+
+    box-shadow: 0 4px 8px 0 rgb(226, 113, 113);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.wrapper .our_team .team_member:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.726);
+
+}
+
+.wrapper .our_team .team_member .member_pic img{
+    background-color: #17BEBB;
+    max-width: 140px;
+    width: 100%;
+    height: 100%;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+}
+
+/* img{
+    background-color: #17BEBB;
+    max-width: 140px;
+    width: 100%;
+    height: 100%;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+}
+ */
+
+.wrapper .our_team .team_member h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0;
+}
+
+.wrapper .our_team .team_member span{
+    font-size: 10px;
+}
+
+.wrapper .our_team .team_member p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+aside{
+
+    height: 80vh;
+    padding-top: 10vh;
+    width: 20px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+aside button{
+    color: transparent;
+    opacity: 0.06;
+    height: 100%;
+    float: left;
+}
+
+aside button:hover{
+    box-shadow: 0 0 0 16px rgba(255, 255, 255, 0.933);
+    opacity: 0.30;
+}
+
+/* aside button:hover::after{
+    width: 40px;
+    box-shadow: 0 0 0 16px rgba(0, 255, 255, 0.795);
+    opacity: 0.30;
+} */
